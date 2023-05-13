@@ -3,36 +3,51 @@ html {
 }
 
 header{
-    background-color: gray;
+    background-color: lightblue;
 }
 
 body{
     background-color: #fafafa;
  }
 
- h1 {
+ .name {
     color: black;
     text-decoration: underline;
     text-align: center;
     font-size: 50px;
+    font-style: italic;
  }
 
- .buttons {
-    display: inline-flex;
-    margin: 20px;
-    width: 120px;
-    font-size: 20px;
-    background-color: gray;
-    text-decoration: underline;
-    border: 2px solid;
+.greeting {
+   background-color: lightblue;
+   text-align: center;
+   font-size: 50px;
+   text-decoration: underline;
+   font-style: italic;
+}
+
+.buttons {
+   float: center;
+   margin: 25px;
+   font-size: 25px;
+   color: #03a9fc;
+ }
+
+ ul {
+   display: flex;
+   margin-left: 425px;
+ }
+
+ li {
+   list-style: none;
  }
 
  .buttons:hover {
-    background-color: #fafafa;
+    background-color: lightblue;
  }
 
  .buttons:active{
-    font-size:medium;
+   color: gray;
     box-shadow: 2px 2px 10px inset;
  }
 
@@ -42,24 +57,39 @@ body{
 
  h2 {
     text-decoration: underline;
-    
- }
- 
- img {
-    margin-left: 150px;
-    margin-top: -50px;
- }
+    font-style: italic;
+}
 
  p {
     margin-left: 150px;
  }
 
- .img-button {
-    background-color: #fafafa;
-    width: 100px;
-    
+ .img-button:hover {
+    background-color: red;
+    box-shadow: 5px 5px 5px;
  }
 
- .img-button:hover {
-    background-color: gray;
+ .profile-pic {
+   margin-left: 150px;
+ }
+
+ .section-1 {
+   background-color: #03a9fc;
+ }
+
+ .section-2 {
+   background-color: #03a9fc;
+   display: flex;
+ }
+
+ .section-3 {
+   background-color: #03a9fc;
+ }
+
+ .body {
+   background-color: black;
+ }
+
+ .img-button {
+   margin: 50px;
  }
