@@ -35,7 +35,7 @@ body{
 
  ul {
    display: flex;
-   margin-left: 425px;
+   justify-content: right;
  }
 
  li {
@@ -93,3 +93,10 @@ body{
  .img-button {
    margin: 50px;
  }
+
+ @media screen and (max-width: 768px) {
+   main,
+   nav {
+     flex-direction: column;
+   }
+}
