@@ -9,8 +9,6 @@ In this project I was tasked with building a protfolio about myself. I first had
 ## Live Webpage
 https://elias-montes.github.io/CSS-Module-2-Challenge/
 
-
-
 ## Special Thanks
 
 To google and stack overflow
